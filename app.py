@@ -61,7 +61,7 @@ with gzip.open('similarity.pkl.gz', 'rb') as f:
     similarity = pickle.load(f)
 
 # Set the title of the web application
-st.title('Movie Recommender App')
+st.title('Movie Recommendation App')
 
 # Create a select box for users to choose a movie
 selected_movie_name = st.selectbox(
