@@ -83,7 +83,7 @@ if st.button('Show Recommendation'):
             st.image(recommended_movie_posters[i])
 
 # Larger gap using multiple <br> tags
-st.markdown("<br><br><br><br><br><br>", unsafe_allow_html=True)
+st.markdown("<br><br><br><br>", unsafe_allow_html=True)
 
 # Instructions for Movie Recommendation App
 st.write("Welcome to the Movie Recommendation App!")
