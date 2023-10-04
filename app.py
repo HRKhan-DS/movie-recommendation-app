@@ -81,3 +81,14 @@ if st.button('Show Recommendation'):
         with cols[i]:
             st.text(recommended_movie_names[i])
             st.image(recommended_movie_posters[i])
+
+# Larger gap using multiple <br> tags
+st.markdown("<br><br><br><br><br><br>", unsafe_allow_html=True)
+
+# Instructions for Movie Recommendation App
+st.write("Welcome to the Movie Recommendation App!")
+st.write("Discover your next favorite movie with our recommendation engine.")
+st.write("To get started, select your movie preferences on the Box.")
+st.write("Click the 'Show Recommendation' button to see a list of recommended movies.")
+
+
